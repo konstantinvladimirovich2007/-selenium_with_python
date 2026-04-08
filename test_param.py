@@ -15,4 +15,4 @@ def test_guest_should_see_login_link(browser, language):
     browser.get(link)
     browser.find_element_by_css_selector("#login_link")
 
-#pytest -s -v test_param.py
+#pytest -s -v test_param.py 
