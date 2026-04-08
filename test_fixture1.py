@@ -26,4 +26,4 @@ class TestMainPage1():
         print("start test2")
         browser.get(link)
         browser.find_element_by_css_selector(".basket-mini .btn-group > a")
-        print("finish test2")
+        print("finish test2") 
